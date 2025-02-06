@@ -105,7 +105,12 @@ const LandingPage = () => {
         {/* Hero Section */}
         <div className="container mx-auto px-6 py-20 text-center">
           <h1 className="text-6xl font-bold mb-4 flex flex-col justify-center items-center">
-            <Image src={siteLogo} alt="sitelogo" />
+            <Image
+              src="https://i.ibb.co.com/Ps3GY10d/ageno.png"
+              width={550}
+              height={550}
+              alt="sitelogo"
+            />
           </h1>
           <p className="text-xl mb-8">
             The worlds first open-source architecture for autonomous risk
@@ -234,8 +239,10 @@ const LandingPage = () => {
             <h2 className="text-2xl mb-20">DATAWITCH - A AGENO EM </h2>
             {/* <AnimatedCircles /> */}
             <Image
-              src={datawitch}
+              src="https://i.ibb.co.com/Rpn3bCqX/datawitch.png"
               alt="Datawitch"
+              width={500}
+              height={500}
               className="mt-6 w-[8rem] h-[8rem] overflow-hidden rounded-[50%]"
             />
 
