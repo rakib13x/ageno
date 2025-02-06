@@ -7,9 +7,9 @@ import SvgComponent from "./SvgComponent";
 import Svg from "./Svg";
 import Svg2 from "./Svg2";
 import Svg3 from "./Svg3";
-import siteLogo from "../../../public/images/ageno.png";
+import siteLogo from "../../../public/ageno.png";
 import Image from "next/image";
-import datawitch from "../../../public/images/datawitch.png";
+import datawitch from "../../../public/datawitch.png";
 
 const LandingPage = () => {
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
