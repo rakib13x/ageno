@@ -238,11 +238,9 @@ const LandingPage = () => {
           <div className="container mx-auto px-6 flex flex-col justify-center items-center">
             <h2 className="text-2xl mb-20">DATAWITCH - A AGENO EM </h2>
             {/* <AnimatedCircles /> */}
-            <Image
+            <img
               src="https://i.ibb.co.com/Rpn3bCqX/datawitch.png"
               alt="Datawitch"
-              width={500}
-              height={500}
               className="mt-6 w-[8rem] h-[8rem] overflow-hidden rounded-[50%]"
             />
 
